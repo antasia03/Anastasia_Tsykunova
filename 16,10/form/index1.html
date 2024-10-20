@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+</head>  
+<body>
+    <form method="post" action="http://fe.it-academy.by/TestForm.php">
+        <h3>Regestration Form</h3>
+        <label>First name:</label>
+        <input type="text" name="First name" placeholder="Enter your first name"><br>
+        <label>Last name:</label>
+        <input type="text" name="Last name" placeholder="Enter your last name"><br>
+        <label>Email:</label>
+        <input type="email" name="Email Address" placeholder="Enter your Email Address"><br>
+        <label>Password:</label>
+        <input type="password" name="Password"><br>
+        <label>Gender:</label><br>
+        Male <input type="radio" name="gender"><br>
+        Female <input type="radio" name="gender"><br>      
+        Other <input type="radio" name="gender"><br>
+        <label>Age:</label>
+        <input type="number" name="age" min="0"><br>
+        <label>Prefernces:</label><br>
+        Acrylic Painting<input type="checkbox" name="Acrylic Painting"><br>
+        Oil Painting<input type="checkbox" name="Oil Painting"><br>
+        Water Color Painting<input type="checkbox" name="Water Color Painting"><br>
+        <label>Select Ocupation</label>
+        <select name="Ocupation">
+            <option>student</option>
+            <option>designer</option>
+            <option>doctor</option>
+        </select>
+        <br><label>Bio</label>
+        <textarea name="bio" lang="en" >
+        </textarea><br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>

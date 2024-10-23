@@ -1,0 +1,29 @@
+h4 {
+    text-align: right
+
+}
+
+.address {
+    font-style: italic;
+}
+
+.prehead {
+    text-align: right
+}
+
+h3 {
+    font-family: "Bad Script";
+    text-decoration: underline;
+    font-weight: bold;
+    text-indent: 5mm;
+
+}
+
+.body {
+    text-indent: 5mm;
+    font-family: "Bad Script";
+    font-weight: 400;
+     
+}
+
+

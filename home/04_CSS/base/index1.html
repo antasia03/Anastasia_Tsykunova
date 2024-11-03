@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Пример страницы</title>
+    <style>
+        div>p {
+            border: 1px solid lightgray;
+            text-indent: 20px;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            width: 95%;
+            height: 100px;
+        }
+
+        ul {
+            list-style-image: url(список.jpeg);
+            margin-left: -25px;
+        }
+
+        li img {
+            display: none;
+        }
+
+        li:hover img {
+            display: inline;
+        }
+
+        p :last-child {
+            background-repeat: no-repeat;
+            background-position: right;
+            background-repeat: no-repeat;
+            background-position: right;
+            padding-right: 17px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Форматы файлов.</h1>
+        <p>
+            .DOC или .doc (от англ. <img src="ссылка.png"><a
+                href="https://www.microsoft.com/ru-ru/microsoft-365/word">document</a>) - расширение имени файла,
+            исползуемое для файлов, представляющих текст, с
+            разметкой или без. Расширение .DOC часто использовалось для обозначения простых текстовых файлов без
+            формирования, однако позже стало использоваться для двоичных форматов с разметкой.<br>
+            <a href="https://www.microsoft.com/ru-ru/microsoft-365/word"
+                style="background-image: url(ворд.jpeg);">Документ MS Word</a>
+        </p>
+        <p>
+            Portable Document Format (<img src="ссылка.png"><a
+                href="https://www.adobe.com/acrobat/about-adobe-pdf.html">PDF</a>) - межплатформенный формат электронных
+            документов, разработанный фирмой Adobe
+            Systems с использованием ряда возможностей языка
+            Postscript.<br>
+            <a href="https://www.adobe.com/acrobat/about-adobe-pdf.html"
+                style="background-image: url('пдф.png')">Документ PDF Z</a>
+        </p>
+        <p>
+            ZIP - популярный формат сжатия данных и архивации файлов. Файл в этом формате обычно имеет расширение <img
+                src="ссылка.png"><a href="https://www.techcareer.net/en/dictionary/zip">.zip</a>
+            и хранит в сжатом или несжатом виде один или несколько файлов, которое можно из него извлечь путем
+            распаковки с помощью специальной программы.<br>
+            <a href="https://www.techcareer.net/en/dictionary/zip" style="background-image: url('архив.gif')">Архив</a>
+        </p>
+    </div>
+    <h2>Это список файлов</h2>
+    <ul>
+        <li><a href="https://www.microsoft.com/ru-ru/microsoft-365/word">Документ MS Word</a><img src="ворд.jpeg"></li>
+        <li><a href="https://www.adobe.com/acrobat/about-adobe-pdf.html">Документ PDF</a><img src="пдф.png"></li>
+        <li><a href="https://www.techcareer.net/en/dictionary/zip">Архив</a><img src="архив.gif"></li>
+    </ul>
+</body>
+
+</html>
